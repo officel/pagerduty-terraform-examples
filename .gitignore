@@ -32,3 +32,6 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# 常に最新に対応させるなら含めないほうが楽
+.terraform.lock.hcl
