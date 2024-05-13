@@ -1,6 +1,6 @@
 # pagerduty-terraform-examples
 
-技術書典16 - PagerDuty ファンブック - PagerDuty &amp; Terraform のサンプルリポジトリ
+[技術書典16](https://techbookfest.org/event/tbf16) - PagerDuty ファンブック - PagerDuty &amp; Terraform のサンプルリポジトリ
 
 ## 記事には書かなかったこと
 
