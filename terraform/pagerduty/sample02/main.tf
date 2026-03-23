@@ -29,12 +29,6 @@ data "template_file" "resource_pagerduty_user" {
   EOT
 }
 
-output "resource_pagerduty_user" {
-  description = "terraform output -raw resource_pagerduty_user > ../users/users.tf"
-  value       = tostring(join("\n", toset(values(data.template_file.resource_pagerduty_user)[*].rendered)))
-}
-
-
 # import block も作る
 data "template_file" "import_pagerduty_user" {
   for_each = {
@@ -47,9 +41,4 @@ data "template_file" "import_pagerduty_user" {
     id = "${each.value.id}"
   }
   EOT
-}
-
-output "import_pagerduty_user" {
-  description = "terraform output -raw import_pagerduty_user > ../users/users_import.tf"
-  value       = tostring(join("\n", toset(values(data.template_file.import_pagerduty_user)[*].rendered)))
 }
