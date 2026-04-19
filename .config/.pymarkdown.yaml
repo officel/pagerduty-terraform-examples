@@ -20,6 +20,8 @@ plugins:
     enabled: false
   no-bare-urls:
     enabled: false
+  no-trailing-punctuation:
+    enabled: false
 extensions:
   front-matter:
     enabled: true
