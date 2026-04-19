@@ -4,13 +4,13 @@ config {
 
 plugin "terraform" {
   enabled = true
-  version = "0.13.0"
+  version = "0.14.1"
   source  = "github.com/terraform-linters/tflint-ruleset-terraform"
   # preset  = "recommended"  # default all
 }
 
 plugin "azurerm" {
   enabled = true
-  version = "0.29.0"
+  version = "0.31.1"
   source  = "github.com/terraform-linters/tflint-ruleset-azurerm"
 }
