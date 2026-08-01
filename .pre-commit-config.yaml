@@ -38,12 +38,12 @@ repos:
       - id: actionlint
 
   - repo: https://github.com/zizmorcore/zizmor-pre-commit
-    rev: a4727cbbcd26d7098e96b9cb738169b59711ae51  # frozen: v1.24.1
+    rev: 067260dc5fe6ea86b7551bfd6f8b3ba4e6c93129  # frozen: v1.28.0
     hooks:
       - id: zizmor
 
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: 6d3c1b70d44ea2202b23552af93aca3b5017ee83  # frozen: v0.9.36
+    rev: b7c6d5936ef699bcf5af0b0c2558118d3eba24d6  # frozen: v0.9.39
     hooks:
       - id: pymarkdown
         args:
@@ -64,7 +64,7 @@ repos:
           - -c=.config/.yamllint
 
   - repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: d0e12caebb2ab0ee8bf98181c8bfe9702bca103d  # frozen: v1.105.0
+    rev: bf9dd9c695ddaf238af36f179049202358ec22b7  # frozen: v1.108.1
     hooks:
       - id: terraform_fmt
         exclude: |
